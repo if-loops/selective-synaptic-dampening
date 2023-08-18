@@ -1,5 +1,7 @@
 # Selective Synaptic Dampening
 
+![SSD_heading](https://github.com/if-loops/selective-synaptic-dampening/assets/47212405/2abb0ef1-8646-479e-a00e-613960d27f9c)
+
 This is the code for the paper **Fast Machine Unlearning Without Retraining Through Selective Synaptic Dampening** (https://arxiv.org/abs/2308.07707).
 
 ## Usage
@@ -51,3 +53,12 @@ SSD functions are in ssd.py. To change alpha and lambda, set them in the respect
       primaryClass={cs.LG}
 }
 ```
+
+## Authors
+
+For our newest research, feel free to follow our socials:
+
+Jack Foster: [LinkedIn](https://www.linkedin.com/in/jackfoster-ml/), [Twitter](https://twitter.com/JackFosterML)
+Stefan Schoepf: [LinkedIn](https://www.linkedin.com/in/schoepfstefan/), [Twitter](https://twitter.com/S__Schoepf)
+Alexandra Brintrup: [LinkedIn](https://www.linkedin.com/in/alexandra-brintrup-1684171/)
+Supply Chain AI Lab: [LinkedIn](https://www.linkedin.com/company/supply-chain-ai-lab/)
