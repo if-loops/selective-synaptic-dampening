@@ -22,7 +22,7 @@ CUDA_VISIBLE_DEVICES=$DEVICE python forget_random_main.py -net ViT -dataset $dat
 reset_cuda
 CUDA_VISIBLE_DEVICES=$DEVICE python forget_random_main.py -net ViT -dataset $dataset -classes $n_classes -gpu -method baseline -forget_perc $forget_perc -weight_path $weight_path -seed $seed 
 reset_cuda
-CUDA_VISIBLE_DEVICES=$DEVICE python forget_random_main.py -net ViT -dataset $dataset -classes $n_classes -gpu -method pdr_tuning -forget_perc $forget_perc -weight_path $weight_path -seed $seed 
+CUDA_VISIBLE_DEVICES=$DEVICE python forget_random_main.py -net ViT -dataset $dataset -classes $n_classes -gpu -method ssd_tuning -forget_perc $forget_perc -weight_path $weight_path -seed $seed 
 reset_cuda
 CUDA_VISIBLE_DEVICES=$DEVICE python forget_random_main.py -net ViT -dataset $dataset -classes $n_classes -gpu -method finetune -forget_perc $forget_perc -weight_path $weight_path -seed $seed 
 reset_cuda

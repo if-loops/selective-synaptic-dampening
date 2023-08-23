@@ -9,6 +9,7 @@ DEVICE=$1
 
 # TODO: Set the range for the number of seeds you want to run. Value is used as seed
 # TODO: Do not forget to set the paths to the model weights in the other bash files (e.g., cifar20_fullclass_exps.sh)
+# You might encounter issues with executing this file due to different line endings with Windows and Unix. Use dos2unix "filename" to fix.
 for value in {1..123}
 do  
     # ResNet18

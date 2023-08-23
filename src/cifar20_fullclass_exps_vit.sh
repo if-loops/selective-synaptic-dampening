@@ -24,7 +24,7 @@ for val in "${StringArray[@]}"; do
     reset_cuda
     CUDA_VISIBLE_DEVICES=$DEVICE python forget_full_class_main.py -net ViT -dataset $dataset -classes $n_classes -gpu -b $b_size -method baseline -forget_class $forget_class -weight_path $weight_path -seed $seed
     reset_cuda
-    CUDA_VISIBLE_DEVICES=$DEVICE python forget_full_class_main.py -net ViT -dataset $dataset -classes $n_classes -gpu -b $b_size -method pdr_tuning -forget_class $forget_class -weight_path $weight_path -seed $seed
+    CUDA_VISIBLE_DEVICES=$DEVICE python forget_full_class_main.py -net ViT -dataset $dataset -classes $n_classes -gpu -b $b_size -method ssd_tuning -forget_class $forget_class -weight_path $weight_path -seed $seed
     reset_cuda
     CUDA_VISIBLE_DEVICES=$DEVICE python forget_full_class_main.py -net ViT -dataset $dataset -classes $n_classes -gpu -b $b_size -method finetune -forget_class $forget_class -weight_path $weight_path -seed $seed
     reset_cuda
