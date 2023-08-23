@@ -11,6 +11,7 @@ All experiments can be run via
 ```
 ./MAIN_run_experiments.sh 0 # to run experiments on GPU 0 (nvidia-smi)
 ```
+You might encounter issues with executing this file due to different line endings with Windows and Unix. Use dos2unix "filename" to fix.
 
 ## Setup
 
