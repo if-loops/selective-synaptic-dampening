@@ -9,6 +9,15 @@
 
 This is the code for the paper **Fast Machine Unlearning Without Retraining Through Selective Synaptic Dampening** (https://arxiv.org/abs/2308.07707), accepted at The 38th Annual **AAAI Conference on Artificial Intelligence** (Main Track).
 
+## Related research
+
+| Paper  | Code | Venue/Status |
+| ------------- | ------------- |  ------------- |
+| [Zero-Shot Machine Unlearning at Scale via Lipschitz Regularization](https://browse.arxiv.org/abs/2402.01401)  | [GitHub](https://github.com/jwf40/Zeroshot-Unlearning-At-Scale) |  Preprint  |
+| [Parameter-Tuning-Free Data Entry Error Unlearning with Adaptive Selective Synaptic Dampening](https://www.researchgate.net/publication/378011802_Parameter-Tuning-Free_Data_Entry_Error_Unlearning_with_Adaptive_Selective_Synaptic_Dampening)  | [GitHub](https://github.com/if-loops/adaptive-selective-synaptic-dampening) |  Preprint  |
+
+
+
 ## Usage
 
 All experiments can be run via
