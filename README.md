@@ -15,7 +15,7 @@ This is the code for the paper **Fast Machine Unlearning Without Retraining Thro
 | ------------- | ------------- |  ------------- |
 | [Zero-Shot Machine Unlearning at Scale via Lipschitz Regularization](https://browse.arxiv.org/abs/2402.01401)  | [GitHub](https://github.com/jwf40/Zeroshot-Unlearning-At-Scale) |  Preprint  |
 | [Parameter-Tuning-Free Data Entry Error Unlearning with Adaptive Selective Synaptic Dampening](https://www.researchgate.net/publication/378011802_Parameter-Tuning-Free_Data_Entry_Error_Unlearning_with_Adaptive_Selective_Synaptic_Dampening)  | [GitHub](https://github.com/if-loops/adaptive-selective-synaptic-dampening) |  Preprint  |
-
+| [ Loss-Free Machine Unlearning](https://arxiv.org/abs/2402.19308) (i.e. Label-Free) | - |  ICLR 2024 Tiny Paper  |
 
 
 ## Usage
