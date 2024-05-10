@@ -1,4 +1,4 @@
-# Selective Synaptic Dampening
+# Selective Synaptic Dampening (AAAI + ICLR TP code)
 
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/if-loops/selective-synaptic-dampening/main) ![GitHub Repo stars](https://img.shields.io/github/stars/if-loops/selective-synaptic-dampening) ![GitHub repo size](https://img.shields.io/github/repo-size/if-loops/selective-synaptic-dampening)
 
@@ -15,7 +15,7 @@ This is the code for the paper **Fast Machine Unlearning Without Retraining Thro
 | ------------- | ------------- |  ------------- |
 | [Zero-Shot Machine Unlearning at Scale via Lipschitz Regularization](https://browse.arxiv.org/abs/2402.01401)  | [GitHub](https://github.com/jwf40/Zeroshot-Unlearning-At-Scale) |  Preprint  |
 | [Parameter-Tuning-Free Data Entry Error Unlearning with Adaptive Selective Synaptic Dampening](https://www.researchgate.net/publication/378011802_Parameter-Tuning-Free_Data_Entry_Error_Unlearning_with_Adaptive_Selective_Synaptic_Dampening)  | [GitHub](https://github.com/if-loops/adaptive-selective-synaptic-dampening) |  Preprint  |
-| [ Loss-Free Machine Unlearning](https://arxiv.org/abs/2402.19308) (i.e. Label-Free) | see below |  ICLR 2024 Tiny Paper  |
+| [ Loss-Free Machine Unlearning](https://arxiv.org/abs/2402.19308) (i.e. Label-Free) -> LFSSD | see below |  ICLR 2024 Tiny Paper  |
 
 ### Implementing LFSSD:
 Replace the following in the compute_importances function(s):
