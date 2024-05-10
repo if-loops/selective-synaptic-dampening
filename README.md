@@ -14,7 +14,7 @@ This is the code for the paper **Fast Machine Unlearning Without Retraining Thro
 | Paper  | Code | Venue/Status |
 | ------------- | ------------- |  ------------- |
 | [Zero-Shot Machine Unlearning at Scale via Lipschitz Regularization](https://browse.arxiv.org/abs/2402.01401)  | [GitHub](https://github.com/jwf40/Zeroshot-Unlearning-At-Scale) |  Preprint  |
-| [Parameter-Tuning-Free Data Entry Error Unlearning with Adaptive Selective Synaptic Dampening](https://www.researchgate.net/publication/378011802_Parameter-Tuning-Free_Data_Entry_Error_Unlearning_with_Adaptive_Selective_Synaptic_Dampening)  | [GitHub](https://github.com/if-loops/adaptive-selective-synaptic-dampening) |  Preprint  |
+| [Parameter-Tuning-Free Data Entry Error Unlearning with Adaptive Selective Synaptic Dampening](https://arxiv.org/abs/2402.10098)  | [GitHub](https://github.com/if-loops/adaptive-selective-synaptic-dampening) |  Preprint  |
 | [ Loss-Free Machine Unlearning](https://arxiv.org/abs/2402.19308) (i.e. Label-Free) -> LFSSD | see below |  ICLR 2024 Tiny Paper  |
 
 ### Implementing LFSSD:
@@ -74,14 +74,17 @@ SSD functions are in ssd.py. To change alpha and lambda, set them in the respect
 ## Citing this work
 
 ```
-@misc{foster2023fast,
-      title={Fast Machine Unlearning Without Retraining Through Selective Synaptic Dampening}, 
-      author={Jack Foster and Stefan Schoepf and Alexandra Brintrup},
-      year={2023},
-      eprint={2308.07707},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
+@article{Foster_Schoepf_Brintrup_2024,
+      title={Fast Machine Unlearning without Retraining through Selective Synaptic Dampening},
+      volume={38},
+      url={https://ojs.aaai.org/index.php/AAAI/article/view/29092},
+      DOI={10.1609/aaai.v38i11.29092},
+      number={11},
+      journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+      author={Foster, Jack and Schoepf, Stefan and Brintrup, Alexandra},
+      year={2024},
+      month={Mar.},
+      pages={12043-12051} }
 ```
 
 ## Authors
