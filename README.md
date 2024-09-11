@@ -13,7 +13,7 @@ This is the code for the paper **Fast Machine Unlearning Without Retraining Thro
 
 | Paper  | Code | Venue/Status |
 | ------------- | ------------- |  ------------- |
-| [Potion: Towards Poison Unlearning](https://arxiv.org/abs/2406.09173) | [GitHub](https://github.com/if-loops/towards_poison_unlearning) |  Preprint  |
+| [Potion: Towards Poison Unlearning](https://arxiv.org/abs/2406.09173) | [GitHub](https://github.com/if-loops/towards_poison_unlearning) |  Journal of Data-Centric Machine Learning Research (DMLR)  |
 | [Zero-Shot Machine Unlearning at Scale via Lipschitz Regularization](https://browse.arxiv.org/abs/2402.01401)  | [GitHub](https://github.com/jwf40/Zeroshot-Unlearning-At-Scale) |  Preprint  |
 | [Parameter-Tuning-Free Data Entry Error Unlearning with Adaptive Selective Synaptic Dampening](https://arxiv.org/abs/2402.10098)  | [GitHub](https://github.com/if-loops/adaptive-selective-synaptic-dampening) |  Preprint  |
 | [ Loss-Free Machine Unlearning](https://arxiv.org/abs/2402.19308) (i.e. Label-Free) -> LFSSD | see below |  ICLR 2024 Tiny Paper  |
